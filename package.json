@@ -1,7 +1,7 @@
 {
-  "name": "codersgyan-colorify",
-  "version": "1.0.0",
-  "description": "A library to colorify your console logs",
+  "name": "gazepay-client",
+  "version": "0.0.1",
+  "description": "A library to gazepay payment gateway",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codersgyan/codersgyan-colorify.git"
+    "url": "git+https://github.com/sohan-fahad/gazepay-client.git"
   },
   "keywords": [
-    "console log colors",
-    "colorify logs"
+    "gazepay",
+    "payment gateway"
   ],
-  "author": "Rakesh K <codersgyan@gmail.com>",
+  "author": "Gaze <gazepay.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codersgyan/codersgyan-colorify/issues"
+    "url": "https://github.com/sohan-fahad/gazepay-client/issues"
   },
-  "homepage": "https://github.com/codersgyan/codersgyan-colorify#readme",
+  "homepage": "https://github.com/sohan-fahad/gazepay-client#readme",
   "devDependencies": {
     "typescript": "^4.6.3"
   },

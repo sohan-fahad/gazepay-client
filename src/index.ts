@@ -1,13 +1,11 @@
-export class Log {
-    static success(msg: string) {
-        console.log(`%c ${msg}`, 'color: green');
-    }
+import { Base } from "./base";
+import { PaymentUI } from "./paymentUI";
+import { Payment } from "./payments";
+import { applyMixins } from "./utils/index.utils";
 
-    static danger(msg: string) {
-        console.log(`%c ${msg}`, 'color: red');
-    }
+class Gazepay extends Base { }
+interface Gazepay extends Payment { }
 
-    static info(msg: string) {
-        console.log(`%c ${msg}`, 'color: black; background: yellow');
-    }
-}
+applyMixins(Gazepay, [Payment, PaymentUI]);
+
+export default Gazepay;
